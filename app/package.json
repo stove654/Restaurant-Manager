@@ -1,0 +1,26 @@
+{
+  "main": "index.html",
+  "name": "restaurant-managerApp",
+  "description": "estaurant-managerApp app of NW",
+  "version": "0.1.0",
+  "keywords": [ "restaurant-managerApp", "NW" ],
+  "window": {
+    "title": "Restaurant ManagerApp",
+    "toolbar": true,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "position": "center",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "moment": "^2.10.6"
+  }
+}
