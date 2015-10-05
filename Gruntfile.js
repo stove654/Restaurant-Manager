@@ -444,7 +444,9 @@ module.exports = function (grunt) {
       options: {
         version: 'v0.12.2',
         buildDir: '../build', // Where the build version of my NW.js app is saved
-        platforms: ['osx'] // These are the platforms that we want to build
+        platforms: ['osx'], // These are the platforms that we want to build
+        macIcns: '<%= yeoman.app %>/images/logo.icns',
+        winIco: '<%= yeoman.app %>/images/logo.ico'
       },
       src:  ['<%= yeoman.dist %>/**/*']
     }
